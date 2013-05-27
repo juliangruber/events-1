@@ -3,7 +3,10 @@
   "version": "1.0.2",
   "dependencies": {
     "event": "component/event",
-    "event-manager": "component/event-manager"
+    "event-manager": "juliangruber/event-manager#package-json"
+  },
+  "browser": {
+    "event": "node_modules/event-component/index.js"
   },
   "component": {
     "scripts": {
