@@ -2,15 +2,10 @@
   "name": "events-component-2",
   "version": "1.0.2",
   "dependencies": {
-    "event": "component/event",
+    "event-component": "component/event",
     "event-manager": "juliangruber/event-manager#package-json"
   },
   "browser": {
-    "event": "node_modules/event-component/index.js"
-  },
-  "component": {
-    "scripts": {
-      "events/index.js": "index.js"
-    }
+    "event": "event-component"
   }
 }
